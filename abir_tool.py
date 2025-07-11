@@ -84,7 +84,24 @@ class UserAgentGenerator:
               f"Mobile Safari/537.36")
         return ua
 
-user_agent_generator = UserAgentGenerator()
+user_agent_generator = UserAgentGenerator(accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=smJhaHalQv444cYDkwXoMckP; sb=smJhaPSzi5ngnrJ1_ODsBV-2; vpd=v1%3B666x360x1.7004296779632568; ps_l=1; ps_n=1; pas=100002720612614%3AakrgDC9nxI%2C100050568219781%3AHgTR9buYUZ%2C100009320389076%3ANbG3s4tqkN%2C61555066127900%3AsDMFXNqbeU; locale=en_GB; wl_cbv=v2%3Bclient_version%3A2865%3Btimestamp%3A1752155483; dpr=1.8695321083068848; m_pixel_ratio=1.7004296779632568; wd=360x806; fr=0tLXoGa0wcCGh3Kas.AWc18oiJyNU-inWPxxbwSuQ9EI6SzmdfVEvq0lJZnvWNQb1HTPU.BoYWKy..AAA.0.0.BocEZ6.AWfSFLHpkWM3lXzqOfl289DZeCM',
+    'dpr': '2',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"Chromium";v="139", "Not;A=Brand";v="99"',
+    'sec-ch-ua-full-version-list': '"Chromium";v="139.0.7339.0", "Not;A=Brand";v="99.0.0.0"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"Infinix X665E"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"12.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent':)
 
 # ===================================================================
 # Banners and UI Elements
@@ -118,7 +135,7 @@ def pro_banner():
 \x1b[1;96m   ➤ \x1b[1;97mCreator        : \x1b[1;96m☠︎︎ ᴀʙɪʀ ᴛᴏᴏʟꜱ ☠︎︎
 \x1b[1;96m   ➤ \x1b[1;97mTool Name      : \x1b[1;92m☠︎︎ ᴀʙɪʀ ᴛᴏᴏʟꜱ ☠︎︎  \x1b[1;91m(\x1b[1;90mVIP\x1b[1;91m)
 \x1b[1;96m   ➤ \x1b[1;97mTool Access    : \x1b[1;93mFree
-\x1b[1;96m   ➤ \x1b[1;97mCurrent Version: \x1b[1;95m1.1
+\x1b[1;96m   ➤ \x1b[1;97mCurrent Version: \x1b[1;95m2.0
 \x1b[1;92m─────────────────────────────────────────────────────────''')
 
 def linex():
